@@ -6,7 +6,7 @@ $(document).on('ready', function () {
 	  $('#javascriptConsole').val(space.toJavascript())
 	  $('#csvConsole').val(space.toCsv())
 	  $('#xmlConsole').val(space.toXML(true))
-	  window.scSpace = space
+	  window.space = space
 	})
 
 	$('#jsonConsole').on('keyup', function () {
@@ -16,7 +16,7 @@ $(document).on('ready', function () {
 	  $('#javascriptConsole').val(space.toJavascript())
 	  $('#csvConsole').val(space.toCsv())
 	  $('#xmlConsole').val(space.toXML(true))
-	  window.scSpace = space
+	  window.space = space
 	})
 
 	$('#xmlConsole').on('keyup', function () {
@@ -25,7 +25,7 @@ $(document).on('ready', function () {
 	  $('#jsonConsole').val(space.toJSON(true, true))
 	  $('#javascriptConsole').val(space.toJavascript())
 	  $('#csvConsole').val(space.toCsv())
-	  window.scSpace = space
+	  window.space = space
 	})
 
 	$('#csvConsole').on('keyup', function () {
@@ -34,7 +34,7 @@ $(document).on('ready', function () {
 	  $('#jsonConsole').val(space.toJSON(true, true))
 	  $('#javascriptConsole').val(space.toJavascript())
 	  $('#xmlConsole').val(space.toXML(true))
-	  window.scSpace = space
+	  window.space = space
 	})
 
 	$('#spaceConsole').keyup()
